@@ -81,6 +81,77 @@ margin-right: 2em;
     margin-right: 2em;
     margin-top: calc((16em - 5em) /2);
 }
+/* FIN FOOTER */
+
+/* INICIO INDEX  */
+
+.title{
+    width: calc(100% - 2em);
+    text-align: right;
+    margin-right: 2em;
+    padding: 2em;
+}
+
+.title__h1{
+    font-family: Helvetica;
+    color: rgba(0, 0, 0, 0.4784313725);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: right;
+    text-decoration-line: initial;
+    opacity: 0.9;
+}
+
+.galery{
+    width: 100%;
+    /* height: calc(56.625em + 71.125em + 60em + 26.6875); */
+    height: 219.685em;
+    /* background-color: aqua; */
+}
+.galery__div--1{
+    width: calc(100% / 3);
+    height: 40.625em;
+    background-color: black;
+}    
+
+.galery__div--2{
+    width: calc(100% / 3);
+    /* width: 40em; */
+    height: 55.125em;
+    background-color: blue;
+}    
+
+.galery__div--3{
+    width: calc(100% / 3);
+    /* width: 40em; */
+    height: 45em;
+}  
+
+.galery__div--4{
+    width: calc(100% / 3);   
+    /* width: 40em; */
+    height: 16.6875em;
+}  
+
+.galery__div--5{
+    width: calc(100% / 3);
+    /* width: 40em; */
+    /* float:right; */
+    height: 41.625em;
+    margin: 0 auto;
+    margin-top: -157.41em;
+}  
+.galery__img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    
+}
+
+
+
+/* FIN INDEX */
 
 
 
