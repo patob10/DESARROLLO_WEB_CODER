@@ -279,14 +279,14 @@
     display: inline-block;
     margin-left: 9em;
   }
-  .biography__div--2 {
+.biography__div--2 {
     width: 30em;
     height: fit-content auto;
     margin: auto;
     float: right;
     margin-right: 9em;
-  }
-  .biography__p {
+}
+.biography__p {
     width: 100%;
     height: 100%;
     padding: 10px;
@@ -297,9 +297,47 @@
     line-height: 25px;
     color: #6C6D73;
     text-align: right;
-  }
+}
 
   /* FIN about.html */
 
+  /* INICIO Contact.html */
+
+    /* Inicio Section contact */
+    .contact{
+        width: 100%;
+    }
+
+    .contact__div{
+        width: 20em;
+        display: inline-block;
+        margin: 1em 0 7em 12em ;
+    }
+
+    .contact__p, .contact__h2{
+        padding: 0.2em;
+        font-family: serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        color: #6C6D73;
+        text-align: center;
+    }
+
+    .contact__h2{
+        font-weight: bold;
+        color: rgba(0, 0, 255, 0.384);
+    }
+    /* Fin Section contact */
+    /* Inicio Section form */
+    .formulario{
+        margin-top: 20em;
+        box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+        margin: 4em;
+    }
+
+    /* Fin Section form */
+  /* FIN Contact.html */
 
 
