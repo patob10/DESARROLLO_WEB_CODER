@@ -12,19 +12,20 @@
 ///////////////////////////////////////////////////////////////////////
 
 //Mixin @media
-    @mixin cel(){
-        @media screen and (max-width: 480px) {
-            @content;    
-        }
-    }
+    // @mixin cel(){
+    //     @media screen and (max-width: 480px) {
+    //         @content;    
+    //     }
+    // }
 
-    @mixin cel( $medida : 480px ){
-        @media screen and (max-width: $medida ) {
-            @content;
-        }
-    }
+    // @mixin cel( $medida : 480px ){
+    //     @media screen and (max-width: $medida ) {
+    //         @content;
+    //     }
+    // }
 
    
+
 
     // .clase{
     //     width:25%;
@@ -36,12 +37,14 @@
 
 //mixin flex
 
-    // @mixin flex( $dis , $direction , $corte , $just , $align ){
-    //     display         : $dis;
+    // @mixin flex( $direction , $corte , $just , $align ){
+    //     display         : flex;
     //     flex-flow       : $direction $corte;
     //     justify-content : $just;
     //     align-items     : $align;
+    //     @content
     // }
+
 
 ////////////////////////////////////////////////////////////////////////
 
@@ -58,15 +61,15 @@
     //     }
     // }
 
-@mixin grid( $columnas , $espacio , $altura: 100vh){
-        display                 : grid;
-        grid-template-columns   : repeat( $columnas , 1fr );
-        gap                     : $espacio;
-        height                  : $altura;
-        //grid-template-rows : 1fr 2fr 2fr 1fr
-        // grid-template-areas: 
-        // "header header header header
-        // "main main main main 
-        // "section1 section2 section3 section4
-        // "header header header header
-    }
+// @mixin grid( $columnas , $espacio , $altura: 100vh){
+//         display                 : grid;
+//         grid-template-columns   : repeat( $columnas , 1fr );
+//         gap                     : $espacio;
+//         height                  : $altura;
+//         //grid-template-rows : 1fr 2fr 2fr 1fr
+//         // grid-template-areas: 
+//         // "header header header header
+//         // "main main main main 
+//         // "section1 section2 section3 section4
+//         // "header header header header
+//     }
