@@ -23,7 +23,7 @@
 .header__wrapper2{
     float:right;
     height: auto;
-    margin-top: calc((16em - 2.4em) / 2);
+    margin-top: calc((16em - 6em) / 2);
     margin-right: 2em;
 }
 
@@ -45,6 +45,14 @@
 
 .ul__a:hover {
     color: rgba(0, 0, 255, 0.384);
+}
+
+.fa-whatsapp{
+    color: #25d3657d;
+}
+
+.fa-whatsapp:hover{
+    color: #25d366;
 }
 
 /* FIN HEADER */
@@ -96,7 +104,11 @@
 }
 
 .fa-circle-up{
-    color:rgba(0, 0, 255, 0.384);
+    color: #6C6D73;
+}
+
+.fa-circle-up:hover{
+    color: rgba(0, 0, 255, 0.384)
 }
     
 .footer__wrapper2{
