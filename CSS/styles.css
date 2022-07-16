@@ -1,4 +1,4 @@
-/* FIN RESET */
+/* INICIO RESET */
 @import "./reset.css";
 /* FIN RESET */
 
@@ -271,7 +271,7 @@
 
 /* FIIN Film.html */
 
-  /* INICIO about.html */
+/* INICIO about.html */
 
 .biography__div--1 {
     width: 28em;
@@ -299,9 +299,9 @@
     text-align: right;
 }
 
-  /* FIN about.html */
+/* FIN about.html */
 
-  /* INICIO Contact.html */
+/* INICIO Contact.html */
 
     /* Inicio Section contact */
     .contact{
@@ -330,13 +330,147 @@
         color: rgba(0, 0, 255, 0.384);
     }
     /* Fin Section contact */
+
     /* Inicio Section form */
-    .formulario{
-        margin-top: 20em;
-        box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
-        margin: 4em;
+    
+    .formulario__div--email {
+        grid-column: 2/span 2;
+        grid-row: 2/2;
+        text-align: center;
+    }
+    .formulario__div--lastname {
+        grid-column: 4/span 3;
+        grid-row: 1/1;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .formulario__div--name {
+        grid-column: 2/span 2;
+        grid-row: 1/1;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .formulario__div--submit {
+        grid-column: 2/span 4;
+        grid-row: 4/4;
+        text-align: center;
+    }
+    .formulario__div--textarea {
+        grid-column: 2/span 4;
+        grid-row: 3/3;
+        text-align: center;
+    }
+    .formulario__div--thanks {
+        grid-column: 3/span 4;
+        grid-row: 4/4;
+        text-align: center;
+    }
+    .formulario__form {
+        display: grid;
+        grid-template-columns: 50px 0px 300px 0px;
+        grid-template-rows: 10px 10px 10px 10px 10px;
+        column-gap: 10rem;
+        margin-right: 5em;
+        row-gap: 7rem;
+        margin-top: 2em;
+        color: whitesmoke;
+        font-family: serif;
+    }
+    .formulario__imput--email, .formulario__imput--text {
+        width: 100%;
+        padding: 3px 10px;
+        border: none;
+        border-bottom: 2px solid whitesmoke;
+        border-radius: 3px;
+        margin: 8px 0;
+        display: inline-block;
+        grid-column: 4/4;
+        grid-row: 1/1;
+        text-align: left;
+    }
+    .formulario__imput--submit {
+        width: 15em;
+        padding: 8px 16px;
+        margin-top: 32px;
+        border: 1px solid whitesmoke;
+        border-radius: 10px;
+        display: block;
+        background-color: rgba(0, 0, 0, 0.779);
+    }
+    .formulario__imput--submit:hover {
+        cursor: pointer;
+        background-color: rgba(0, 0, 255, 0.384);
+    }
+    .formulario ::placeholder {
+        color: whitesmoke;
+        font-size: 1.5em;
+    }
+    .formulario__p {
+        padding: 8px 16px;
+        margin-top: 32px;
+        color: whitesmoke;
+        font-size: 1.5em;
+    }
+    .formulario__textarea {
+        resize: none;
+        width: 100%;
+        padding: 3px 10px;
+        border: none;
+        border-bottom: 2px solid whitesmoke;
+        border-radius: 3px;
+        margin: 8px 0;
+        display: inline-block;
+        grid-column: 4/4;
+        grid-row: 1/1;
+        text-align: left;
+    }
+    
+    .info {
+        margin-top: 5em;
+        display: grid;
+        grid-template-columns: 50px 0px 300px 50px;
+        grid-template-rows: 50px 50px;
+        column-gap: 10rem;
+        row-gap: 10rem;
+    }
+    .info__div--1 {
+        grid-column: 2/2;
+        grid-row: 1/1;
+        text-align: center;
+    }
+    .info__div--2 {
+        grid-column: 4/4;
+        grid-row: 1/1;
+        text-align: center;
+    }
+    .info__div--3 {
+        grid-column: 2/2;
+        grid-row: 2/2;
+        text-align: center;
+    }
+    .info__div--4 {
+        grid-column: 4/4;
+        grid-row: 2/2;
+        text-align: center;
+    }
+    .info__table {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .section__hr {
+        margin-top: 3rem;
+    }
+    .section__hr--hr__hr {
+        border-color: rgba(0, 0, 255, 0.384);
     }
 
+    .section--form {
+        background-color: rgba(0, 0, 0, 0.779);
+        box-shadow:  0 -5px 5px 0 5px -5px black;
+        box-shadow: inset 0px 11px 8px -10px whitesmoke, inset 0px -11px 8px -10px whitesmoke;
+        border-radius: 0.5rem;
+    }  
     /* Fin Section form */
   /* FIN Contact.html */
 
