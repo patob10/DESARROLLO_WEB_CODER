@@ -103,7 +103,6 @@
     width: 20%;
     height: 16em;
     float: left;
-
 }
 
 .footer__img{
@@ -271,6 +270,36 @@
   }
 
 /* FIIN Film.html */
+
+  /* INICIO about.html */
+
+.biography__div--1 {
+    width: 28em;
+    height: fit-content auto;
+    display: inline-block;
+    margin-left: 9em;
+  }
+  .biography__div--2 {
+    width: 30em;
+    height: fit-content auto;
+    margin: auto;
+    float: right;
+    margin-right: 9em;
+  }
+  .biography__p {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-family: serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #6C6D73;
+    text-align: right;
+  }
+
+  /* FIN about.html */
 
 
 
