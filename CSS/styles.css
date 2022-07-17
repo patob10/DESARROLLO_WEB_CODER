@@ -129,8 +129,7 @@
 }
 /* FIN FOOTER */
 
-/* INICIO INDEX  */
-
+/* INICIO SECCION TITULO */
 .title{
     width: calc(100% - 2em);
     text-align: right;
@@ -148,6 +147,25 @@
     text-decoration-line: initial;
     opacity: 0.9;
 }
+
+.title__h1--left{
+    text-align: left;
+}
+
+.title__hr{
+    margin-top: 1em;
+    width: 25em;
+    float: right;
+    border-color: rgba(0, 0, 255, 0.384);
+}
+
+.title__hr--left{
+    float: left;
+}
+
+/* FIN SECCION TITULO */
+
+/* INICIO INDEX  */
 
  .galery {
     display: flex;
