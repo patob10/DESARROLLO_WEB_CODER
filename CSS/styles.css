@@ -111,7 +111,7 @@
     color: rgba(0, 0, 255, 0.384)
 }
     
-.footer__wrapper2{
+.footer__wrapper2{  
     width: 20%;
     height: 16em;
     float: left;
@@ -188,14 +188,15 @@
   }
 
   .projects__div--1 {
-    margin-left: 10em;
+    margin-left: 10%;
   }
 
   .projects__div--2 {
-    margin-left: 7em;
+    margin-left: 10%;
+    /* margin-right: 3%; */
   }
   .projects__div--3 {
-    margin-left: 10em;
+    margin-left: 10%;
   }
 
   .projects__img {
