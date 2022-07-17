@@ -188,15 +188,14 @@
   }
 
   .projects__div--1 {
-    margin-left: 10%;
+    margin-left: 10em;
   }
 
   .projects__div--2 {
-    margin-left: 10%;
-    /* margin-right: 3%; */
+    margin-left: 7em;
   }
   .projects__div--3 {
-    margin-left: 10%;
+    margin-left: 10em;
   }
 
   .projects__img {
